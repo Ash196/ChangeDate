@@ -11,7 +11,6 @@ public class DataGenerator {
     private DataGenerator() {
     }
 
-
     public static String getNewDate(int plusDays) {
         return LocalDate.now().plusDays(plusDays).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
