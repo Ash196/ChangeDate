@@ -1,9 +1,9 @@
+
 Thumbs.db*
-.DS_Store*
+.DS_Store
 HELP.md
 .gradle
 build/
-target/
 
 ### STS ###
 .apt_generated
@@ -32,7 +32,7 @@ out/
 .vscode/
 
 ### Package Files ###
-
+*.jar
 *.war
 *.nar
 *.ear
@@ -42,6 +42,5 @@ out/
 
 ### Exclusions ###
 !gradle/wrapper/gradle-wrapper.jar
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
